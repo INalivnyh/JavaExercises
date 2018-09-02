@@ -1,4 +1,4 @@
-package level_1.lesson_7;
+package lesson_7;
 
 /**
  * GeekBrains. Java. Level 1. Lesson 7. HomeWork

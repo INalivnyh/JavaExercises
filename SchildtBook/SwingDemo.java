@@ -8,7 +8,6 @@ import javax.swing.*;
 
 public class SwingDemo {
     SwingDemo(){
-
         //создать пустой контейнер типа JFrame
         JFrame jfrm = new JFrame("a simple Swing Application");
         //простое Swing - приложение

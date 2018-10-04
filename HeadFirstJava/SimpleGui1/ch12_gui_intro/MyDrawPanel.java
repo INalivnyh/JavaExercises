@@ -1,4 +1,4 @@
-package SimpleGui1;
+package SimpleGui1.ch12_gui_intro;
 
 import javax.swing.*;
 import java.awt.*;

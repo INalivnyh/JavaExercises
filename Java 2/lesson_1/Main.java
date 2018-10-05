@@ -1,4 +1,4 @@
-package hw1;
+package lesson_1;
 
 import hw1.animals.Team;
 import hw1.obstances.Course;

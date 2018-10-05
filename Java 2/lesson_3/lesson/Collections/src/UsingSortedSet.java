@@ -1,4 +1,4 @@
-package hw3.lesson.Collections.src;
+package lesson_3.lesson.Collections.src;
 
 import java.util.*;
 

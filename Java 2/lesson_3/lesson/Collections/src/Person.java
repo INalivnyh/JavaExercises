@@ -1,3 +1,5 @@
+package lesson_3.lesson.Collections.src;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

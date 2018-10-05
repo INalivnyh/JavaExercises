@@ -1,4 +1,4 @@
-package SimpleGui1.ch12_gui_intro;
+package simplegui1.ch12_gui_intro;
 
 import javax.swing.*;
 
@@ -12,6 +12,7 @@ import javax.swing.*;
 public class SimpleGui1 {
     public static void main(String[] args) {
         JFrame frame = new JFrame(); //создали фрейм
+
         JButton button = new JButton("click me"); //создали кнопку
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

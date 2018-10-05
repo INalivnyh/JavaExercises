@@ -1,4 +1,4 @@
-package SimpleGui1.ch12_gui_intro;
+package simplegui1.ch12_gui_intro;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,14 +16,23 @@ public class MyDrawPanel extends JPanel {
     MyDrawPanel panel = new MyDrawPanel();
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.getContentPane().add(panel);
-    frame.setSize(300,300);
+    frame.setSize(400,400);
     frame.setVisible(true);
 }
 
-    public void paintComponent(Graphics g) {
-        g.setColor(Color.orange);
-        g.fillRect(100,50,100,100);
-    }
+//    public void paintComponent(Graphics g) {
+//        g.setColor(Color.orange);
+//        g.fillRect(100,50,100,100);
+//    }
 
+//    public void paintComponent(Graphics g){
+//        Image image = new ImageIcon("java_logo.png").getImage();
+//        g.drawImage(image,3,4,this);
+//    }
+
+    public void paintComponent(Graphics g){
+        Image image = new ImageIcon("java_logo.png").getImage();
+        g.drawImage(image,3,4,this);
+    }
 
 }

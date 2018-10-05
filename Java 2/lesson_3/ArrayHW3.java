@@ -1,4 +1,4 @@
-package level_2.hw3;
+package lesson_3;
 
 
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * GeekBrains. Java. Level 2. Lesson NUM. HomeWork
+ * GeekBrains. Java. Level 2. Lesson 3. HomeWork
  *
  * @author Igor Nalivnyh
  * @version 29.09.2018

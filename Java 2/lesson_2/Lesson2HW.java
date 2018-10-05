@@ -16,7 +16,7 @@
  */
 
 
-package hw2;
+package lesson_2;
 
 import java.io.FileReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import javafx.scene.Parent;
 
 /**
  * GeekBrains. Java. Level 2. Lesson NUM. HomeWork
@@ -7,5 +7,5 @@ package PACKAGE_NAME;
  * @version 07.10.2018
  */
 
-public class Child {
+public class Child extends Parent {
 }

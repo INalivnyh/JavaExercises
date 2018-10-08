@@ -4,7 +4,7 @@ package lesson_5;
  * GeekBrains. Java. Level 2. Lesson 5. HomeWork
  *
  * @author Igor Nalivnyh
- * @version 05.10.2018
+ * @version 08.10.2018
  */
 
 import java.util.Arrays;

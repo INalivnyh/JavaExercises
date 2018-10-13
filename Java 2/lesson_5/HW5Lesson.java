@@ -1,5 +1,7 @@
 package lesson_5;
 
+import java.util.Arrays;
+
 /**
  * GeekBrains. Java. Level 2. Lesson 5. HomeWork
  *
@@ -7,7 +9,7 @@ package lesson_5;
  * @version 08.10.2018
  */
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 
     public class HW5Lesson implements Runnable {

@@ -1,4 +1,4 @@
-package ex2;
+package lesson_6.ClassWork.ex2;
 
 import java.io.*;
 import java.net.ServerSocket;

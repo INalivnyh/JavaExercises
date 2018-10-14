@@ -1,5 +1,12 @@
 package lesson_6;
 
+/**
+ * GeekBrains. Java. Level 2. Lesson 6. HomeWork
+ *
+ * @author Igor Nalivnyh
+ * @version 014.10.2018
+ */
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -27,7 +34,11 @@ public class Server {
                 try {
                     while (true) {
                         String str = in.readUTF();
-                        if (str.split(" ")[1].equals("END")) {
+                        String[] test = str.split(" ");
+                        String end = test[2];
+                        boolean isEND = end.equals("END");
+
+                        if (isEND) {
                             out.writeUTF("Завершение работы сервера");
                             break;
                         }
@@ -57,7 +68,7 @@ public class Server {
                     try {
                         while (true) {
                             String answer = massege.readLine();
-                            out.writeUTF("Сервер написал" + ": " + answer);
+                            out.writeUTF("Сервер написал" + ": " + answer.trim());
                         }
                     } catch (IOException e) {
                         e.printStackTrace();

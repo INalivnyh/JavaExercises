@@ -1,4 +1,4 @@
-package level_1.lesson1;
+package lesson_1;
 
 /**
  * GeekBrains. Java. Level 1. Lesson 1. HomeWork

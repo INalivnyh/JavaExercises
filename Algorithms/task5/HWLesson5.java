@@ -20,3 +20,10 @@ public class HWLesson5 {
         return (e % 2 != 0 ? a : 1) * t * t;
     }
 }
+
+
+
+
+
+
+

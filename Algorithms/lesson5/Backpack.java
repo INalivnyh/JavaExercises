@@ -6,13 +6,13 @@
  */
 
 /*
-* 2. Написать программу «Задача о рюкзаке» с помощью рекурсии.*/
+ * 2. Написать программу «Задача о рюкзаке» с помощью рекурсии.*/
 
 class Goods {
     private int weight;
     private int value;
 
-    public Goods(int weight, int value){
+    public Goods(int weight, int value) {
         this.weight = weight;
         this.value = value;
     }
@@ -24,8 +24,6 @@ class Goods {
     public int getValue() {
         return value;
     }
-
-
 }
 
 
@@ -47,10 +45,9 @@ public class Backpack {
             return 0;
         }
         if (goods[i].getWeight() > weigth) {
-            return findBestRes(i-1, weigth);
-        }
-        else {
-            return Math.max(findBestRes(i-1, weigth), findBestRes(i-1, weigth - goods[i].getWeight()) + goods[i].getValue()); // ???
+            return findBestRes(i - 1, weigth);
+        } else {
+            return Math.max(findBestRes(i - 1, weigth), findBestRes(i - 1, weigth - goods[i].getWeight()) + goods[i].getValue()); // ???
         }
     }
 }
